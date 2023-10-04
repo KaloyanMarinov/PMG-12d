@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+  </head>
+  <body>
+    <h1>Forms</h1>
+
+    <form action="" method="get">
+      <div>
+        <label for="name">Name</label>
+        <input id="name" name="username" type="text" placeholder="Name" value="Ivan.."  minlength="5" maxlength="10">
+      </div>
+
+      <div>
+        <label>Password</label>
+        <input type="password" name="password" placeholder="Password">
+      </div>
+
+      <div>
+        <label>Number</label>
+        <input type="number" name="phone" placeholder="Phone number">
+      </div>
+
+      <div>
+        <label>Email</label>
+        <input type="email" name="email" placeholder="Email">
+      </div>
+
+      <div>
+        <label>Url</label>
+        <input type="url" name="website" placeholder="Url">
+      </div>
+
+      <div>
+        <label>Range</label>
+        <input type="range" name="rating" placeholder="Range" min="1" max="5" step="0.5">
+      </div>
+
+      <div>
+        <label>Range</label>
+        <input type="date" name="date">
+        <input type="time" name="time">
+        <input type="color" name="color">
+      </div>
+
+      <div>
+        <label>Select</label>
+        <select name="city">
+          <option value="" disabled>Избери град</option>
+          <option value="sofia">София</option>
+          <option value="tarnova" selected>Велико Търново</option>
+          <option value="plovdiv">Пловдив</option>
+        </select>
+      </div>
+
+      <div>
+        <label>Multi Select</label>
+        <select name="city" multiple>
+          <option value="" disabled>Избери град</option>
+          <option value="sofia" selected>София</option>
+          <option value="tarnova" selected>Велико Търново</option>
+          <option value="plovdiv">Пловдив</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="r1">Radio 1</label>
+        <input id="r1" name="radio" type="radio" value="1">
+
+        <label for="r2">Radio 2</label>
+        <input id="r2" name="radio" type="radio" value="2">
+      </div>
+
+      <div>
+        <label for="cb1">Checkbox 1</label>
+        <input id="cb1" name="checkbox" type="checkbox" value="1">
+
+        <label for="cb2">Checkbox 2</label>
+        <input id="cb2" name="checkbox" type="checkbox" value="2">
+      </div>
+
+      <textarea name="" id="" cols="30" rows="10" placeholder="Messages"></textarea>
+
+      <div>
+        <button type="submit">Click</button>
+      </div>
+    </form>
+  </body>
+</html>
