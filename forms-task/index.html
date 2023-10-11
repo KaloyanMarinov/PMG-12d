@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+  </head>
+  <body>
+    <h1>Register Form</h1>
+
+    <p>Have an account? <a href="#">Log In</a></p>
+
+    <p>All fields marked with * are required.</p>
+
+    <form action="" method="post">
+      <fieldset>
+        <legend>Personal information</legend>
+
+        <table>
+          <tbody>
+            <tr>
+              <th align="left"><p>Full name *</p></th>
+              <td>
+                <input type="text" name="first" placeholder="First" required>
+                <input type="text" name="last" placeholder="Last" required>
+              </td>
+            </tr>
+
+            <tr>
+              <th align="left"><p>Personal ID *</p></th>
+              <td>
+                <input type="number" name="personal_id" minlength="10" maxlength="10" required>
+                <small>Personal ID must be 10 digits</small>
+              </td>
+            </tr>
+
+            <tr>
+              <th align="left"><p>Date of Birth *</p></th>
+              <td><input type="date" name="date_birth" placeholder="DD/MM/YYYY" required></td>
+            </tr>
+
+            <tr>
+              <th align="left"><p>Email address *</p></th>
+              <td><input type="email" name="email" placeholder="email@site.com" required></td>
+            </tr>
+
+            <tr>
+              <th align="left"><p>Phone Number *</p></th>
+              <td>
+                <input type="tel" name="phone" placeholder="### ### ####" required>
+              </td>
+            </tr>
+
+            <tr>
+              <th align="left"><p>City *</p></th>
+              <td>
+                <select name="city">
+                  <option value="" selected disabled>Select city</option>
+                  <option value="tarnovo">Veliko Tarnovo</option>
+                  <option value="sofia">Sofia</option>
+                  <option value="plovdiv">Plovdiv</option>
+                  <option value="varna">Varna</option>
+                  <option value="burgas">Burgas</option>
+                </select>
+              </td>
+            </tr>
+
+            <tr>
+              <th align="left"><p>Gender *</p></th>
+              <td>
+                <label>
+                  <input type="radio" name="gender" value="man" required>
+                  Man
+                </label>
+
+                <label>
+                  <input type="radio" name="gender" value="female" required>
+                  Female
+                </label>
+              </td>
+            </tr>
+
+            <tr>
+              <th align="left"><p>School/College/Institution *</p></th>
+              <td><input type="text" name="school" required></td>
+            </tr>
+
+            <tr>
+              <th align="left"><p>Grade/Year *</p></th>
+              <td><input type="text" name="grade" required></td>
+            </tr>
+          </tbody>
+        </table>
+      </fieldset>
+
+      <fieldset>
+        <legend>Profile information</legend>
+
+        <table>
+          <tbody>
+            <tr>
+              <th align="left"><p>Username *</p></th>
+              <td><input type="text" name="first" required></td>
+            </tr>
+
+            <tr>
+              <th align="left"><p>Password *</p></th>
+              <td>
+                <input type="password" name="password" minlength="6" required>
+                <small>Password must be a minimum of 6 characters</small>
+              </td>
+            </tr>
+
+            <tr>
+              <th align="left"><p>Confirm Password *</p></th>
+              <td><input type="password" name="confirm_password" minlength="6" required></td>
+            </tr>
+
+            <tr>
+              <th align="left"><p>Choose a profile picture</p></th>
+              <td>
+                <input type="file" name="avatar" accept="image/png, image/jpeg">
+                <small>Allowed formats are png or jpg</small>
+              </td>
+            </tr>
+
+            <tr>
+              <th align="left"><p>Newsletter</p></th>
+              <td>
+                <label>
+                  <input type="checkbox" name="newslatter" checked>
+                  I agree to receive messages about news and promotions.
+                </label>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </fieldset>
+
+      <p align="center"><button type="submit">Register Now</button></p>
+    </form>
+  </body>
+</html>
