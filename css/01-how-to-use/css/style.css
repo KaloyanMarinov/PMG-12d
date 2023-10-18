@@ -1,0 +1,7 @@
+body {
+  background-color: gray;
+}
+p {
+  color: rgb(0,0,0); 
+  background-color: rgba(80,80,80, .5);
+}
