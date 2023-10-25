@@ -1,0 +1,31 @@
+body p {
+  color: red;
+}
+
+body > p {
+  color: blue;
+}
+
+.myClass + #myID {
+  color:darkgreen;
+} 
+
+.myClass + .myP {
+  color:aquamarine;
+}
+
+.myClass + p {
+  color:darkorchid;
+}
+
+.myClass ~ p {
+  color:brown;
+}
+
+.myClass p {
+  color:chocolate;
+}
+
+.myClass section .myInnerClass {
+  color:chartreuse;
+}
