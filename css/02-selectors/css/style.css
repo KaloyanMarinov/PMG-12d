@@ -1,0 +1,74 @@
+/*  Simple Selectors */
+/* p {
+  color: blue
+} */
+
+p.myClass {
+  color: red;
+}
+
+#myID {
+  color:bisque;
+}
+
+.myClass {
+  color: green;
+}
+
+.myClass2 {
+  color:aquamarine;
+}
+
+/* Кобинаторни селектори */
+
+.myClass p {
+  color: red;
+}
+
+div > p {
+  color: blue;
+}
+
+div + p {
+  color:beige;
+}
+
+div ~ p {
+  color:darksalmon;
+}
+
+
+a {
+  color: red;
+}
+
+a:hover {
+  color:blue;
+}
+
+
+input:focus {
+  color: white;
+  background-color: red;
+}
+
+input::placeholder {
+  color: red;
+}
+
+input:focus::placeholder {
+  color: white;
+}
+
+input:checked {
+  width: 100px;
+  height: 100px;
+}
+
+li {
+  margin-top: 10px;
+}
+
+li:nth-child(2) {
+  color: red;
+}
