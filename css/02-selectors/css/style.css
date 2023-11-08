@@ -29,3 +29,50 @@ body > p {
 .myClass section .myInnerClass {
   color:chartreuse;
 }
+
+a {
+  color: blue;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color:yellow;
+}
+
+a:visited {
+  color:rgb(0, 255, 72);
+}
+
+li:nth-child(1),
+li:nth-child(2),
+li:nth-child(3) {
+  color: red
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+li:before {
+  content: '';
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: url(https://cdn-icons-png.flaticon.com/512/1055/1055183.png);
+  background-size: 10px 10px;
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+
+input[placeholder="Email address"] {
+  border-color: red;
+}
