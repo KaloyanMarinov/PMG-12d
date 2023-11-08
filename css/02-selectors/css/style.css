@@ -37,7 +37,6 @@ div ~ p {
   color:darksalmon;
 }
 
-
 a {
   color: red;
 }
@@ -45,7 +44,6 @@ a {
 a:hover {
   color:blue;
 }
-
 
 input:focus {
   color: white;
@@ -71,4 +69,12 @@ li {
 
 li:nth-child(2) {
   color: red;
+}
+
+a[href="#"] {
+  color:aquamarine
+}
+
+[class^="btn"] {
+  font-size: 20px;
 }
