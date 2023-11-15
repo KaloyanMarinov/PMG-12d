@@ -1,0 +1,27 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-image: url(https://images.immediate.co.uk/production/volatile/sites/30/2017/01/Bunch-of-bananas-67e91d5.jpg?quality=90&resize=440,400);
+  background-repeat: no-repeat; /* no-repeat | repeat | repeat-x | repeat-y */
+  background-position: calc(100% - 50px) 50px; /* x - left center right ;  y - top center bottom or units */
+}
+
+p {
+  color: red;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.5em;
+  text-transform: lowercase;
+  background-color: rgb(0,0,0, 0.5);
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline double blue;
+}
+
+div {
+  font-size: 40px;
+}

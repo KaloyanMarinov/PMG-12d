@@ -1,0 +1,23 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+p {
+  color: red;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.5em;
+  text-transform: lowercase;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline double blue;
+}
+
+div {
+  font-size: 40px;
+}
