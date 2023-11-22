@@ -1,0 +1,75 @@
+.holder {
+  overflow: hidden;
+  background-color: red;;
+}
+
+.content {
+  float: left;
+}
+
+.sidebar {
+  float: right;
+}
+
+.menu {
+  overflow: hidden;
+  list-style-type: none;
+}
+
+.menu li {
+  float: left;
+}
+
+.grid {
+  overflow: hidden;
+}
+
+.col {
+  float: left;
+  width: 33.33%;
+  text-align: center;
+  font-size: 14px;
+  background: gray;
+  border-radius: 10px;
+}
+
+.profile {
+  overflow: hidden;
+  background: lightgrey;
+}
+
+.avatar {
+  float: left;
+  /* background-color: red; */
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  /* border-radius: 10px 15px 20px 30px; */
+  /* border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px; */
+  border-radius: 50%;
+}
+
+.row {
+  overflow: hidden;
+}
+
+.left {
+  float: left;
+  width: 200px;
+  height: 50px;
+  overflow: auto;
+  background-color: green;
+}
+
+.right {
+  float: right;
+  width: 200px;
+  background-color: blue;
+}
+
+.after {
+  clear: both;
+}
