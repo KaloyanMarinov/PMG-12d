@@ -25,3 +25,31 @@ a:hover {
 div {
   font-size: 40px;
 }
+
+.input {
+  width: 200px;
+  height: 50px;
+  background-image: url('https://cdn-icons-png.flaticon.com/128/1077/1077114.png');
+  background-repeat: no-repeat;
+  background-size: 20px auto;
+  background-position: 10px center;
+
+  /* background: url('https://cdn-icons-png.flaticon.com/128/1077/1077114.png') no-repeat 10px center / 20px auto; */
+}
+
+.select {
+  width : 200px;
+  height: 50px;
+  background-image: url('https://cdn-icons-png.flaticon.com/128/1077/1077114.png'), url('../arrow.png');
+  background-repeat: no-repeat;
+  background-size: 20px auto, 10px auto;
+  background-position: 10px center, calc(100% - 10px) center;
+
+  appearance: none;
+}
+
+body {
+  color: #fff;
+  background: rgb(34,193,195);
+  background: linear-gradient(58deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
