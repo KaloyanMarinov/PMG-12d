@@ -1,0 +1,111 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+
+.dFlex {
+  display: flex;
+}
+
+.flex-container {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  padding: 10px 0;
+  color: #fff;
+  background-color: gainsboro;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+.menu {
+  display: flex;
+  column-gap: 15px;
+}
+
+.menu a {
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.menu a:hover {
+  color: red;
+}
+
+/* .menu a:not(:last-child) {
+  margin-right: 15px;
+} */
+
+/* .menu a {
+  margin-right: 15px;
+}
+
+.menu a:last-child {
+  margin-right: 0;
+} */
+
+.profile {
+  padding: 10px;
+  border: 1px solid black;
+  align-items: center;
+  column-gap: 10px;
+  border-radius: 5px;
+  color: black;
+  font-weight: bold;;
+  text-transform: uppercase;
+}
+
+.profile:hover {
+  color: white;
+  background-color: black;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.myDiv {
+  width: 200px;
+  height: 100px;
+  overflow: scroll;
+}
+
+.actions {
+  align-items: center;
+  column-gap: 15px;
+}
+
+.search {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 4px;
+  background: none;
+}
