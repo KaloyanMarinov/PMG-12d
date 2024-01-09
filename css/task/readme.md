@@ -1,7 +1,8 @@
 
 # CSS Task
 
-Чрез използване на HTMl и CSS да се създаде и стилизира изгледа от фила header.png намиращ се в папкта. Да се изповалме външен css файл.
+Чрез използване на HTML и CSS да се създаде и стилизира изгледа от фила header.png намиращ се в папкта.
+Да се използва външен css файл.
 
 Ресурси: https://github.com/KaloyanMarinov/PMG-12d/tree/second-group/css/task/task.zip
 
