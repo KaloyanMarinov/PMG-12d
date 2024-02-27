@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Bootstrap Layout</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0 ">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex me-2" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+
+          <a class="btn btn-primary me-2" href="#" role="button">Login</a>
+          <a class="btn btn-secondary" href="#" role="button">Register</a>
+        </div>
+      </div>
+    </nav>
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-4 col-sm-6 col-12">Col 1</div>
+        <div class="col-xl-4 col-sm-6">Col 2</div>
+        <div class="col-xl-4 col-12">col 3</div>
+      </div>
+
+      <div class="row">
+        <div class="col-xl-2 col-sm-4 col-6">Col 1</div>
+        <div class="col-xl-8 col-sm-6 col-4">Col 2</div>
+        <div class="col-2">Col 2</div>
+      </div>
+
+
+      <div class="row">
+        <div class="col-xl-3 col-sm-6 col-12">
+          <div class="border border-primary p-4 rounded">
+            <figure class="mb-2">
+              <img src="https://imageio.forbes.com/specials-images/imageserve/5d35eacaf1176b0008974b54/0x0.jpg?format=jpg&crop=4560,2565,x790,y784,safe&height=900&width=1600&fit=bounds" alt="" class="img-fluid rounded">
+            </figure>
+
+            <h2 class="h3 mb-lg-2 mb-3">h3. Bootstrap heading</h2>
+
+            <p class="d-sm-block d-none">You can use the mark tag to <mark>highlight</mark> text.</p>
+
+            <p>Price: <span class="fw-bold text-center">$200 000</span></p>
+
+            <button type="button" class="btn btn-primary w-100">Add to cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
